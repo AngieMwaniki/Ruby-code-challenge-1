@@ -7,7 +7,14 @@ end
 
 ###  WRITE YOUR TEST CODE HERE ###
 
-
+author1 = Author.new("angelamwanki")
+author2 = Author.new("Muthoni")
+forbes = Magazine.new("Forbes","life")
+people = Magazine.new("People","mypeople")
+title = "mytitle"
+puts forbes.contributors
+article1 = Article.new(author1, forbes,"GETTING THAT PAPER")
+article2 = Article.new(author2, forbes,"GETTING  PAPER")
 
 
 
